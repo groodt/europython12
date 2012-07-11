@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>EuroPython 2012 Review</title>
+	
+	<meta name="description" content="A quick recap of my experience at EuroPython 2012">
+	<meta name="author" content="Greg Roodt">
+	<meta name="viewport" content="width=1024, user-scalable=no">
+	
+	<!-- Core and extension CSS files -->
+	<link rel="stylesheet" href="deck/core/deck.core.css">
+	<link rel="stylesheet" href="deck/extensions/goto/deck.goto.css">
+	<link rel="stylesheet" href="deck/extensions/menu/deck.menu.css">
+	<link rel="stylesheet" href="deck/extensions/navigation/deck.navigation.css">
+	<link rel="stylesheet" href="deck/extensions/status/deck.status.css">
+	<link rel="stylesheet" href="deck/extensions/hash/deck.hash.css">
+	<link rel="stylesheet" href="deck/extensions/scale/deck.scale.css">
+	
+	<!-- Style theme. More available in /themes/style/ or create your own. -->
+	<link rel="stylesheet" href="css/main.css">
+	
+	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
+	<link rel="stylesheet" href="deck/themes/transition/horizontal-slide.css">
+	
+	<script src="deck/modernizr.custom.js"></script>
+</head>
+
+<body class="deck-container">
+
+<!-- Begin slides -->
+<section class="slide" id="title-slide">
+	<h1>EuroPython 2012 Review</h1>
+	<img src="images/europython-logo.png" alt="EuroPython Logo" />
+</section>
+
+<section class="slide" id="food">
+	<h1>The food!</h1>
+	<img class="slide" src="images/pasta.jpg" alt="Pasta" />
+	<img class="slide" src="images/biscuits.jpg" alt="Biscuits" />
+	<img class="slide" src="images/lunch.jpg" alt="Lunch" />
+	<img class="slide" src="images/mega_steak.jpg" alt="Mega Steak" />
+</section>
+
+<section class="slide" id="scenery">
+	<h1>The scenery!</h1>
+	<img class="slide" src="images/ponte_vechio.jpg" alt="Ponte Vechio" />
+	<img class="slide" src="images/duomo.jpg" alt="Duomo" />
+</section>
+
+<section class="slide" id="fun">
+	<h1>The fun!</h1>
+	<img class="slide" src="images/mama_ginas.jpg" alt="Mama Gina's" />
+	<img class="slide" src="images/dr_carl_david.jpg" alt="Dr Carl's David pose" />
+</section>
+
+<section class="slide" id="watch-the-talks">
+	<h2>Watch the talks</h2>
+	<p>All the talks and training events were live-streamed, but were also recorded so you can watch them at your leisure. Watch them here: </p>
+	<ul>
+		<li><a href="http://www.youtube.com/user/PythonItalia/videos?feature=context-chv&sort=dd&page=1&view=0" target="_blank">YouTube - PythonItalia channel</a></li>
+		<li><a href="http://thelabmill.de:4570/file?info_hash=d416308f29fa029bc068546f18588885c3fb88b1" target ="_blank">Torrent</a></li>
+	</ul>
+</section>
+
+<section class="slide" id="my-favourite-talks">
+	<h1>My favourite talks</h1>
+</section>
+
+<section class="slide" id="ask-your-bdfl">
+	<h2>Ask your BDFL</h2>
+	<p>Watch Tom V troll Guido van Rossum</p>
+	<iframe width="853" height="480" src="http://www.youtube.com/embed/YdxXqc2Npls#t=26m23s" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<section class="slide" id="concurrent-futures">
+	<h2>concurrent.futures is here</h2>
+	<p>Neat feature in Python 3.2 (backported to 2.6 and 2.7) that allows you to coordinate concurrent independant tasks in an executor that is powered by threads or separate processes. Think Fork-join.</p>
+	<iframe width="853" height="480" src="http://www.youtube.com/embed/2Ng-UIedZMY" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<section class="slide" id="music-theory-genetic-algos">
+	<h2>Music Theory, Genetic Algorithms and Python</h2>
+	<p>A very humourous and interesting talk by our very own Nicholas Tollervey on genetic algorithms and music. Watch him fool the audience into picking computer generated music over great composers.<iframe width="853" height="480" src="http://www.youtube.com/embed/OTHggyZAot0" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<section class="slide" id="discovering-descriptors">
+	<h2>Discovering Descriptors</h2>
+	<p>Peter Inglesby, a London Python Dojo regular, does a great in-depth talk about Python descriptors. If you want to know the details of getting and setting fields in classes, then watch this talk! A lot of people were really impressed with his REPL-based presentation tool.</p>
+	<iframe width="853" height="480" src="http://www.youtube.com/embed/D3-NZXHO5QI" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<section class="slide" id="advanced-flask-patterns">
+	<h2>Advanced Flask Patterns</h2>
+	<p></p>
+	<iframe width="853" height="480" src="http://www.youtube.com/embed/KOvgfbBFZxk" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<section class="slide" id="nested">
+	<h2>Nested Slides</h2>
+	<p>That last slide had a few steps.  To create substeps in slides, just nest them:</p>
+	<pre><code>&lt;section class=&quot;slide&quot;&gt;
+  &lt;h2&gt;Extensions&lt;/h2&gt;
+  &lt;p&gt;Core gives you basic slide functionality...&lt;/p&gt;		
+  &lt;ul&gt;
+     &lt;li class=&quot;slide&quot;&gt;
+        &lt;h3&gt;deck.goto&lt;/h3&gt;
+        &lt;p&gt;Adds a shortcut key to jump to any slide number...&lt;/p&gt;
+     &lt;/li&gt;
+     &lt;li class=&quot;slide&quot;&gt;...&lt;/li&gt;	
+     &lt;li class=&quot;slide&quot;&gt;...&lt;/li&gt;
+     &lt;li class=&quot;slide&quot;&gt;...&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;</code></pre>
+</section>
+
+<section class="slide" id="elements-images">
+	<h2>Other Elements: Images</h2>
+	<img src="http://placekitten.com/600/375" alt="Kitties">
+	<pre><code>&lt;img src=&quot;http://placekitten.com/600/375&quot; alt=&quot;Kitties&quot;&gt;</code></pre>
+</section>
+
+<section class="slide" id="elements-blockquotes">
+	<h2>Other Elements: Blockquotes</h2>
+	<blockquote cite="http://example.org">
+		<p>Food is an important part of a balanced diet.</p>
+		<p><cite>Fran Lebowitz</cite></p>
+	</blockquote>
+	<pre><code>&lt;blockquote cite=&quot;http://example.org&quot;&gt;
+  &lt;p&gt;Food is an important part of a balanced diet.&lt;/p&gt;
+  &lt;p&gt;&lt;cite&gt;Fran Lebowitz&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</code></pre>
+</section>
+
+
+<section class="slide" id="elements-videos">
+	<h2>Other Elements: Video Embeds</h2>
+	<p>Embed videos from your favorite online video service or with an HTML5 video&nbsp;element.</p>
+	
+	<iframe src="http://player.vimeo.com/video/1063136?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0"></iframe>
+	
+	<pre><code>&lt;iframe src=&quot;http://player.vimeo.com/video/1063136?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;400&quot; height=&quot;225&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</code></pre>
+</section>
+
+<!-- deck.navigation snippet -->
+<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+
+<!-- deck.status snippet -->
+<p class="deck-status">
+	<span class="deck-status-current"></span>
+	/
+	<span class="deck-status-total"></span>
+</p>
+
+<!-- deck.goto snippet -->
+<form action="." method="get" class="goto-form">
+	<label for="goto-slide">Go to slide:</label>
+	<input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+	<datalist id="goto-datalist"></datalist>
+	<input type="submit" value="Go">
+</form>
+
+<!-- deck.hash snippet -->
+<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+
+<!-- Grab CDN jQuery, with a protocol relative URL; fall back to local if offline -->
+<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+<script>window.jQuery || document.write('<script src="deck/jquery-1.7.min.js"><\/script>')</script>
+
+<!-- Deck Core and extensions -->
+<script src="deck/core/deck.core.js"></script>
+<script src="deck/extensions/hash/deck.hash.js"></script>
+<script src="deck/extensions/menu/deck.menu.js"></script>
+<script src="deck/extensions/goto/deck.goto.js"></script>
+<script src="deck/extensions/status/deck.status.js"></script>
+<script src="deck/extensions/navigation/deck.navigation.js"></script>
+<script src="deck/extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck -->
+<script>
+$(function() {
+	$.deck('.slide');
+});
+</script>
+
+</body>
+</html>
